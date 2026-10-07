@@ -4,7 +4,7 @@ Attribute VB_Name = "ModConfig"
 ' Unica constante a alterar se o projeto mudar de maquina ou pasta: BASE_DIR
 ' =============================================================================
 
-Private Const BASE_DIR As String = "C:\Dev\projetos\Extratores"
+Private Const BASE_DIR As String = "C:\Dev\projetos\Institucional\AZ-Conectores\AZ-Extratores"
 
 Public Function PythonExe() As String
     PythonExe = BASE_DIR & "\venv\Scripts\python.exe"
